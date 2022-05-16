@@ -43,8 +43,7 @@ public class Kata {
 
 
     public boolean isPrimeNumber(int digit) {
-        if( digit<=2) return true;
-        return false;
+        return digit <= 2;
     }
 
 

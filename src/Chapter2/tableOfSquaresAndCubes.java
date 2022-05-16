@@ -49,7 +49,7 @@ public class tableOfSquaresAndCubes {
 //        int cube10 = digit10* digit10 * digit10;
 //
 //
-//        System.out.println("number    square    cube");
+//        System.out.println("userInput    square    cube");
 //        System.out.printf(" %d  %d  %d%n", digit1,  square1,   square1   );
 //        System.out.printf(" %d  %d  %d%n", digit2,  square2,   cube2   );
 //        System.out.printf(" %d  %d  %d%n", digit3,  square3,   cube3  );
@@ -65,7 +65,7 @@ public class tableOfSquaresAndCubes {
 //       while (userInput < 0);
 //        System.out.println(userInput *  );
 //        userInput += 1;
-        System.out.println("input your square and cube number");
+        System.out.println("input your square and cube userInput");
         int nn = table.nextInt();
 
         int n = 0;

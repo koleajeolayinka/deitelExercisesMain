@@ -7,18 +7,18 @@ public class page5_16 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter first number ");
+        System.out.println("Enter first userInput ");
         int num1 = input.nextInt();
 
-        System.out.println("Enter second number ");
+        System.out.println("Enter second userInput ");
         int num2 = input.nextInt();
 
-        System.out.println("Enter third number ");
+        System.out.println("Enter third userInput ");
         int num3 = input.nextInt();
 
-        System.out.println("Enter fourth number ");
+        System.out.println("Enter fourth userInput ");
         int num4 = input.nextInt();
-        System.out.println("Enter fifth number ");
+        System.out.println("Enter fifth userInput ");
         int num5 = input.nextInt();
 
         barChartShape(num1);

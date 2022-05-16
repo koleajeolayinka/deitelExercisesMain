@@ -61,5 +61,6 @@ public class LargestAndSmallestNumber {
         if (fifthInteger < secondInteger && fifthInteger < thirdInteger && fifthInteger < forthInteger && fifthInteger < firstInteger ) {
             System.out.println("THE SMALLEST INTEGER IS " + fifthInteger);
         }
+
     }
 }

@@ -2,7 +2,7 @@ package televisionSet.testCode;
 /**
 * This program performs some mathematical function and displays the result.
 * It also displays the value of constant Math.PI.
-* It then reports the number of seconds that the computer spend of this task.
+* It then reports the userInput of seconds that the computer spend of this task.
  */
 public class Timer {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Timer {
         System.out.println("(There can be round-off errors when"
                 + " computing with real numbers!)");
 
-        System.out.print("\nHere is a random number:  ");
+        System.out.print("\nHere is a random userInput:  ");
         System.out.println( Math.random() );
 
         System.out.print("The value of Math.PI is ");

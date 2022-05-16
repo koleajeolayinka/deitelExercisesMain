@@ -134,11 +134,10 @@ public class KataTest {
         //given that
         Kata primeNumber = new Kata();
         //when
-        boolean var = primeNumber.isPrimeNumber(3);
+        boolean var = primeNumber.isPrimeNumber(11);
         //assert
             assertEquals(true, var);
         }
-
 
     }
 

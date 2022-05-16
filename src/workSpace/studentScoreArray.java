@@ -6,7 +6,7 @@ public class studentScoreArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println(" enter number of student");
+        System.out.println(" enter userInput of student");
         int numberOfStudent = scanner.nextInt();
 
         System.out.println(" enter total subject taking per student each");

@@ -7,15 +7,15 @@ public class subtration {
         double number1;
         double number2;
 
-        System.out.println("input first number");
+        System.out.println("input first userInput");
         number1 = sc.nextInt();
 
-        System.out.println("input second number");
+        System.out.println("input second userInput");
         number2 = sc.nextInt();
 
         double minus = number1 - number2;
 
-        System.out.printf("%s%n first number minus second number is: ", minus);
+        System.out.printf("%s%n first userInput minus second userInput is: ", minus);
 
 
 

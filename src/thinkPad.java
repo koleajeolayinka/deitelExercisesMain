@@ -1,5 +1,5 @@
     // Java program to find minimum
-// number of segments required
+// userInput of segments required
 import java.io.*;
 
 

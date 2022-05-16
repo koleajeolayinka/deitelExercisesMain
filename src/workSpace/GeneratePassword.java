@@ -1,7 +1,7 @@
  package workSpace;
  import java.util.Random;
 
- public class generatePassword {
+ public class GeneratePassword {
     public static void main(String[] args) {
         Random numberRandom = new Random();
         char [] generatedPassword = new char[26];

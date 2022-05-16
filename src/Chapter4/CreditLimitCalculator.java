@@ -2,10 +2,10 @@ package Chapter4;
 
 import java.util.Scanner;
 
-//4.18 (Credit Limit Calculator) Develop a Java application that determines whether any of sev-
-//        eral department-store customers has exceeded the credit limit on a charge account. For each cus-
+//4.18 (Credit Limit Calculator) Develop a Java application that determines whether any of
+//        several department-store customers has exceeded the credit limit on a charge account. For each cus-
 //        tomer, the following facts are available:
-//        a) account number
+//        a) account userInput
 //        b) balance at the beginning of the month
 //        c) total of all items charged by the customer this month
 //        d) total of all credits applied to the customer’s account this month
@@ -17,9 +17,13 @@ import java.util.Scanner;
 public class CreditLimitCalculator {
     public static Scanner scanner = new Scanner(System.in);
     public static CreditAccount account = new CreditAccount();
+    public static int Balance;
+    public static int Credit;
+    public static int CustomerCharged;
+
     public static void main(String[] args) {
         System.out.print("WELCOME TO CREDIT LIMIT CALCULATOR ");
-       RunCreditLimitCalculator();
+        RunCreditLimitCalculator();
     }
 
     private static void RunCreditLimitCalculator() {
@@ -27,12 +31,32 @@ public class CreditLimitCalculator {
         String accNumber = scanner.next();
         account.setAccountNumber(accNumber);
 
-        System.out.println("YOUR BALANCE AG THE BEGINNING OF THE MONTH");
-        int Balance = scanner.nextInt();
+        System.out.println("YOUR BALANCE AT THE BEGINNING OF THE MONTH");
+        Balance = scanner.nextInt();
         ItemCharged();
     }
 
     private static void ItemCharged() {
-        System.out.printf("");
+        System.out.println("TOTAL OF ALL ITEM CHARGED BY THE CUSTOMER THIS MONTH");
+        CustomerCharged = scanner.nextInt();
+        AllowedCreditLimit();
+
     }
+
+    private static void AllowedCreditLimit() {
+        System.out.println("total of all credits applied to the customer’s account this month");
+        Credit = scanner.nextInt();
+        System.out.println("ENTER YOUR ALLOWED CREDIT LIMIT");
+        int limit = scanner.nextInt();
+        int newBalance = Balance + CustomerCharged - Credit;
+        if (limit >= newBalance) {
+
+            System.out.println("Credit not limit exceeded");
+        }else {
+
+            System.out.println("Credit limit exceeded");
+        }
+    }
+
+
 }

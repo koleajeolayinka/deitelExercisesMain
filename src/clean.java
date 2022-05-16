@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class clean {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("how many number do you want to add");
+        System.out.println("how many userInput do you want to add");
         int row = scanner.nextInt();
-        System.out.println("enter number to add");
+        System.out.println("enter userInput to add");
         int column = scanner.nextInt();
         int[][] array = new int[row][column];
         int sum = 0;

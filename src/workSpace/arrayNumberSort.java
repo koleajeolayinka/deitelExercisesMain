@@ -22,7 +22,7 @@ public class arrayNumberSort {
 // Define range of values
         int min = 0;
         int max = 10;
-// Generate random number for each element in array
+// Generate random userInput for each element in array
         for(int i = 0; i < length; i++){
             randomNumbers[i] = rand.nextInt(max - min) + min;
         }

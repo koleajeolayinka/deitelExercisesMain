@@ -20,7 +20,7 @@
 // * ¦ 21 ¦ 52 ¦ 33 ¦ 13 ¦ 23 ¦
 // * +------------------------+
 // * Do you like treasure hunts? In this problem you are to write a program to explore the above array for a treasure. The values in the array are clues.
-// * Each cell contains an integer between 11 and 55; for each value the ten's digit represents the row number and the unit's digit represents the column number of the cell containing the next clue.
+// * Each cell contains an integer between 11 and 55; for each value the ten's digit represents the row userInput and the unit's digit represents the column userInput of the cell containing the next clue.
 // * Starting in the upper left corner (at 1,1), use the clues to guide your search of the array. (The first three clues are 11, 34, 42).
 // * i.e. Cell (1,1) contains 34, which means go to cell 3, 4
 // * Cell(3,4) contains 42 which means go to cell 4,2…..
@@ -29,9 +29,9 @@
 // * Answered on : 7/5/12
 // */
 //public class TreasureGame {
-//    // has-a number of tries
+//    // has-a userInput of tries
 //    private int numberOfTriesLeft = 50;
-//    //has-a number of hidden treasure
+//    //has-a userInput of hidden treasure
 //    private int numberStillHidden = 20;
 //    // Purpose: Subtract 1 try for every attempt taken by the player
 //    public void reduceTriesLeft()

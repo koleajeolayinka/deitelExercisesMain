@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class separatingTheDigitInAnInteger {
     public static void main(String [] args){
         Scanner separatingTechnique = new Scanner (System.in);
-       System.out.println("enter five digit number");
+       System.out.println("enter five digit userInput");
         int number = separatingTechnique.nextInt();
 
         int firstDigit = number/10000;
@@ -12,7 +12,7 @@ public class separatingTheDigitInAnInteger {
         int thirdDigit = (number % 1000)/100;
         int forthDigit = (number %100)/10;
         int fifthDigit = (number % 10);
-        System.out.printf("the number are %d %d %d %d %d%n", firstDigit,secondDigit,thirdDigit,forthDigit,fifthDigit);
+        System.out.printf("the userInput are %d %d %d %d %d%n", firstDigit,secondDigit,thirdDigit,forthDigit,fifthDigit);
 
 
     }

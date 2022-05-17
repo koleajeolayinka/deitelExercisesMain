@@ -52,10 +52,11 @@ public class DiarySite {
     }
 
     private static void CreateAccount() {
+        String firstName1 = scanner.nextLine();
         System.out.println("ENTER FIRST NAME");
-        String firstName = scanner.next();
-        System.out.println("ENTER SURNAME NAME");
-        String surName = scanner.next();
+        String firstName = scanner.nextLine();
+        System.out.println("ENTER FULL NAME");
+        String surName = scanner.nextLine();
         System.out.println(firstName + " " + surName + " KINDLY ENTER DATE OF BIRTH\nPLEASE YOUR DATE OF BIRTH MUST BE WRITTEN IN DMMYYYY ELSE DDMMYYYY FORMAT");
         int DateOfBirth = scanner.nextInt();
         store.setDateOfBirth(DateOfBirth);
@@ -97,7 +98,7 @@ public class DiarySite {
         System.out.println("""
                 PRESS 1 ->> WRITE DIARY
                 PRESS 2 ->> LOG OUT
-               
+                               
                 """);
         int UserInput = scanner.nextInt();
         switch (UserInput) {
@@ -114,9 +115,9 @@ public class DiarySite {
         lock.setLockPassword(Lock);
         System.out.println("CONFIRM YOUR LOCK KEY AGAIN");
         String ConfirmLock = scanner.next();
-        if (Objects.equals(ConfirmLock, lock.getLockPassword()) ) {
+        if (Objects.equals(ConfirmLock, lock.getLockPassword())) {
             NotePad();
-        }else if (!Objects.equals(ConfirmLock, lock.getLockPassword())){
+        } else if (!Objects.equals(ConfirmLock, lock.getLockPassword())) {
             WriteCreatedDiary();
         }
 
@@ -124,17 +125,19 @@ public class DiarySite {
     }
 
     private static void NotePad() {
-        String TOBI = scanner.nextLine();
+        String note = scanner.nextLine();
         System.out.println("ENTER DIARY");
-        System.out.println(TOBI);
+        String noteK = scanner.nextLine();
 
-        System.out.printf("%nYOUR DIARY: %s%nSUCCESSFULLY SAVE TODAY IN %s", notePad.getNote(), time.getCurrentTime());
+        System.out.println(noteK);
+notePad.setNote(noteK);
+        System.out.printf("%nYOUR DIARY: %s%nSUCCESSFULLY SAVE TODAY IN %s ", notePad.getNote(), time.getCurrentTime());
 
         System.out.println("KINDLY LOCK YOUR DIARY");
         String LockDiary = scanner.next();
-        if (Objects.equals(LockDiary, lock.getLockPassword()) ) {
+        if (Objects.equals(LockDiary, lock.getLockPassword())) {
             System.out.println("SUCCESSFULLY SAVE ");
-        }else if (!Objects.equals(LockDiary, lock.getLockPassword())){
+        } else if (!Objects.equals(LockDiary, lock.getLockPassword())) {
             System.out.println("INCORRECT DIGIT");
             NotePad();
         }

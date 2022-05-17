@@ -10,6 +10,11 @@ import java.util.Scanner;
 public class StudentGrades {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+runStudentGrades();
+    }
 
+    private static void runStudentGrades() {
+        System.out.println("ENTER STUDENT ");
+        System.out.println("ENTER STUDENT ");
     }
 }

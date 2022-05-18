@@ -28,7 +28,7 @@ public class DiarySite {
                 \tWHERE ALL DIARY ARE SAVE🔐 AND ENCRYPTED🗽
                 PRESS 1 ->> LOGIN
                 PRESS 2 ->> CREATE ACCOUNT
-                PRESS 3 ->> IF YOU FORGET YOUR PASSWORD TO LOGIN
+                PRESS 3 ->> IF YOU FORGET YOUR LOG IN DETAILED
                 """);
         String UserInput1 = scanner.next();
 
@@ -47,8 +47,29 @@ public class DiarySite {
     }
 
     private static void forGetPassWordToLogIn() {
-        System.out.println("UNDER CONSTRUCTION ");
-        NotePad();
+        System.out.println("""
+                PRESS 1 >->> IF YOU REMEMBER YOUR USER NAME TO LOGIN
+                PRESS 2 >->> IF YOU REMEMBER YOUR YOUR PASSWORD TO LOGIN
+                """);
+        int userInput = scanner.nextInt();
+
+        switch (userInput){
+            case '1': LogInWithoutUserName();
+            case '2': LogInWithoutPassWord();
+        }
+    }
+
+    private static void LogInWithoutPassWord() {
+        System.out.println("ENTER YOUR ACCOUNT USER NAME ");
+        String userName = scanner.next();
+        System.out.println("ENTER YOUR ACCOUNT PHONE NUMBER ");
+        if (Objects.equals(userName, logIn.getUserName())) {
+
+
+        }
+    }
+
+    private static void LogInWithoutUserName() {
     }
 
     private static void CreateAccount() {

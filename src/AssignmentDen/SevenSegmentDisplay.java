@@ -45,7 +45,9 @@ public class SevenSegmentDisplay {
 
         private static void lightSegment(boolean on, String onValue, String offValue) {
             System.out.print(on ? onValue : offValue);
-            try {
+            try {final Map<Integer, Integer> encodings =
+                new HashMap<Integer, Integer>();
+
                 Thread.sleep(100);
             }
             catch (InterruptedException e) {

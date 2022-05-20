@@ -24,45 +24,23 @@ import java.util.Scanner;
 public class Factorial {
     public static Scanner scanner = new Scanner(System.in);
     public static int userInput;
-    public static int firstDigit;
-    public static int secondDigit;
-    public static int thirdDigit;
-    public static int forthDigit;
-    public static int fifthDigit;
-    public static int sixDigit;
-    public static int sevenDigit;
-    public static int eightDigit;
-    public static int nineDigit;
-    public static int tenDigit;
+
     public static void main(String[] args) {
         System.out.println("WELCOME TO FACTORIAL APPLICATION");
         runFactorial();
     }
 
     private static void runFactorial() {
-        System.out.println("ENTER A DIGIT TO CHECK THE FACTORIAL");
-        userInput = scanner.nextInt();
-        PrintFactorial();
-    }
-
-    private static void PrintFactorial() {
-firstDigit = userInput / 1000000000;
-secondDigit = (userInput % 1000000000) / 100000000;
-thirdDigit = (userInput % 100000000) / 10000000;
-forthDigit = (userInput % 10000000) / 1000000;
-fifthDigit = (userInput % 1000000) / 100000;
-sixDigit = (userInput % 100000) / 10000;
-sevenDigit = (userInput % 10000) / 1000;
-eightDigit = (userInput % 1000) / 100;
-nineDigit = (userInput % 100) / 10;
-tenDigit = (userInput % 10);
-calculate();
-    }
-
-    private static void calculate() {
-        if (userInput <= 10) {
-           int  factorial0 = userInput * (userInput - 1);
-
+        System.out.println("ENTER NUMBER");
+        int number = scanner.nextInt();
+        int factorial = 1;
+        for (int i = 1; i <= number; i++) {
+            factorial = factorial * i;
         }
+        System.out.println(factorial);
+
     }
+
+
+
 }

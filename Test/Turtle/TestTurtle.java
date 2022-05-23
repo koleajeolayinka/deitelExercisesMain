@@ -60,4 +60,7 @@ public class TestTurtle {
     turtle.move(5);
     assertEquals(new Position(0,2), turtle.getCurrentPosition());
 }
+@Test public void turtleCanTurnLeftAndRight(){
+        Turtle turtle = new Turtle();
+}
 }

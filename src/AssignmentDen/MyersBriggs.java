@@ -36,20 +36,26 @@ public class MyersBriggs {
     private static void runMyersBriggs() {
         for (int i = 0; i < extroversionVsIntroversion.length; i++) {
             for (int j = 0; j <20; j++) {
-int sum = i + 1;
+            int sum = i + 1;
 
                 try {
 
 
                     System.out.println("(" + sum + ")" + " " + (extroversionVsIntroversion)[i][j]);
-//                userInput = scanner.nextLine().toLowerCase();
+                userInput = scanner.nextLine().toLowerCase();
                 } catch (ArrayIndexOutOfBoundsException ignored) {
+
+                }
+                if (!userInput.equals("a") && !userInput.equals("b")) {
+                    System.out.println("INCORRECT INPUT");
+                    runMyersBriggs();
 
                 }
 
             }
         }
         System.out.println(userInput);
+
     }
 
 }

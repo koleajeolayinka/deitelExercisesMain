@@ -1,77 +1,77 @@
 package AssignmentDen;
 
-import java.util.HashMap;
-import java.util.Map;
 public class SevenSegmentDisplay {
-
-
-        private static final Map<Integer, Integer> encodings =
-                new HashMap<Integer, Integer>();
-
-        static {
-            encodings.put(0, 0x7E);
-            encodings.put(1, 0x30);
-            encodings.put(2, 0x6D);
-            encodings.put(3, 0x79);
-            encodings.put(4, 0x33);
-            encodings.put(5, 0x5B);
-            encodings.put(6, 0x5F);
-            encodings.put(7, 0x70);
-            encodings.put(8, 0x7F);
-            encodings.put(9, 0x7B);
-
+    public static String[][] sevenSegment = {{"#", "#", "#", "#"},
+                                             {"#", "#", "#", "#"},
+                                             {"#", "#", "#", "#"},
+                                             {"#", "#", "#", "#"},
+                                             {"#", "#", "#", "#"}};
+    public void setScreen(String pin) {
+        if(pin.charAt(7) == '1'){
+            if(pin.charAt(0) == '1')
+                PrintA();
+            if(pin.charAt(1) == '1')
+                PrintB();
+            if(pin.charAt(2) == '1')
+                PrintC();
+            if(pin.charAt(3) == '1')
+                PrintD();
+            if(pin.charAt(4) == '1')
+                PrintE();
+            if(pin.charAt(5) == '1')
+                PrintF();
+            if(pin.charAt(6) == '1')
+                PrintG();
         }
 
-        public static void main(String[] args) throws Exception {
-            for (int i = 0; i < 10; i++) {
-                printDigit(i);
-            }
-        }
+    }
 
-        public static void printDigit(int digit) {
-            int code = encode(digit);
-            char[] bits =
-                    String.format("%7s", Integer.toBinaryString(code))
-                            .replace(' ', '0').toCharArray();
+    private void PrintG() {
+        System.out.println(sevenSegment[2][0] + " " + sevenSegment[2][1] + " " + sevenSegment[2][2] + " " + sevenSegment[2][3]);
 
-            lightSegment(bits[0] == '1', " _ \n", "   \n");
-            lightSegment(bits[5] == '1', "|", " ");
-            lightSegment(bits[6] == '1', "_", " ");
-            lightSegment(bits[1] == '1', "|\n", " \n");
-            lightSegment(bits[4] == '1', "|", " ");
-            lightSegment(bits[3] == '1', "_", " ");
-            lightSegment(bits[2] == '1', "|\n", " \n");
-        }
+    }
 
-        private static void lightSegment(boolean on, String onValue, String offValue) {
-            System.out.print(on ? onValue : offValue);
-            try {final Map<Integer, Integer> encodings =
-                new HashMap<Integer, Integer>();
+    private void PrintF() {
+        System.out.println(sevenSegment[0][0] + " " + sevenSegment[1][0] + " " + sevenSegment[2][0] );
 
-                Thread.sleep(100);
-            }
-            catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+    }
 
-        private static int encode(int digit) {
-            return encodings.containsKey(digit) ? encodings.get(digit) : 0x00;
-        }
+    private void PrintE() {
+        System.out.println(sevenSegment[2][0] + " " + sevenSegment[3][0] + " " + sevenSegment[4][0]);
 
-    public void setScreen(String s) {
-        encodings.put(0, 0x7E);
-        encodings.put(1, 0x30);
-        encodings.put(2, 0x6D);
-        encodings.put(4, 0x33);
-        encodings.put(5, 0x5B);
-        encodings.put(6, 0x5F);
-        encodings.put(7, 0x70);
-        encodings.put(8, 0x7F);
-        encodings.put(9, 0x7B);
+    }
+
+    private void PrintD() {
+        System.out.println(sevenSegment[4][0] + " " + sevenSegment[4][1] + " " + sevenSegment[4][2] + " " + sevenSegment[4][3]);
+
+    }
+
+    private void PrintC() {
+        System.out.println(sevenSegment[2][3] + " " + sevenSegment[3][3] + " " + sevenSegment[4][3]);
+
+    }
+
+    private void PrintB() {
+        System.out.println(sevenSegment[0][3] + " " + sevenSegment[1][3] + " " + sevenSegment[2][3]);
+
+    }
+
+    private void PrintA() {
+        System.out.println(sevenSegment[0][0] + " " + sevenSegment[0][1] + " " + sevenSegment[0][2] + " " + sevenSegment[0][3]);
     }
 
     public void display() {
+        for (int i = 0; i < sevenSegment.length; i++) {
+            for (int j = 0; j < 4; j++) {
+                try {
+                    System.out.print(sevenSegment[i][j]);
+                    System.out.print(' ');
+                }
+                catch (ArrayIndexOutOfBoundsException ignored){
+
+                }
+            }
+            System.out.println();
+        }
     }
 }
-

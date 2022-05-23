@@ -25,27 +25,19 @@ public class Atm {
                 """;
         System.out.println(prompt);
         int userResponse =scanner.nextInt();
-                switch (userResponse){
-                    case 1: createAccount();
-                    break;
-                    case 2: putMoney();
-                    break;
-                    case 3: withdraw();
-                    break;
-                    case 4: urgent2k();
-                    break;
-                    case 5: shakebalance();
-                    break;
-                    case 6: exit ();
-                    break;
-                    default:
-                        runApp();
-
-
-                }
+        switch (userResponse) {
+            case 1 -> createAccount();
+            case 2 -> putMoney();
+            case 3 -> withdraw();
+            case 4 -> urgent2k();
+            case 5 -> shakebalance();
+            case 6 -> exit();
+            default -> runApp();
+        }
     }
 
     private static void exit() {
+
 
     }
 

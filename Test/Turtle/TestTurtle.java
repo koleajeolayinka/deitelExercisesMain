@@ -25,6 +25,7 @@ public class TestTurtle {
     public void TestTurtleCanMove(){
         Turtle turtle = new Turtle();
 
+
     }
 
     @Test
@@ -62,5 +63,7 @@ public class TestTurtle {
 }
 @Test public void turtleCanTurnLeftAndRight(){
         Turtle turtle = new Turtle();
+
 }
+
 }

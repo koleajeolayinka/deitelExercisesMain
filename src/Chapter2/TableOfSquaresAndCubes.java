@@ -2,7 +2,7 @@ package Chapter2;
 //2.31 (Table of Squares and Cubes) Using only the programming techniques you learned in this
 //        chapter, write an application that calculates the squares and cubes of the numbers from 0 to 10 and
 //        prints the resulting values in table format, as shown below.
-//        userInput  square  cube
+//        SetInput1  square  cube
 //        0         0       0
 //        1         1       1
 //        2         4       8
@@ -23,7 +23,7 @@ public class TableOfSquaresAndCubes {
         System.out.println("WELCOME TO THE TABLE OF SQUARES AND CUBES ");
         System.out.println("ENTER YOUR TABLE NUMBER");
         tableNumber = scanner.nextInt();
-        System.out.printf("%10s%10s%10s%n", "userInput", "square", "cube");
+        System.out.printf("%10s%10s%10s%n", "SetInput1", "square", "cube");
         for (int i = 0; i < tableNumber ; i++) {
             System.out.printf("%10d%10d%10d%n", i, i*i, i*i*i);
 

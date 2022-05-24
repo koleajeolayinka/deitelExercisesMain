@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //2.15 (Arithmetic) Write an application that asks the user to enter two integers, obtains them from
 //        the user and prints the square of each, the sum of their squares, and the difference of the squares (first
-//        userInput squared minus the second userInput squared). Use the techniques shown in Fig. 2.7
+//        SetInput1 squared minus the second SetInput1 squared). Use the techniques shown in Fig. 2.7
 public class Arithmetic {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

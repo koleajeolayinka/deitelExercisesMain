@@ -3,7 +3,7 @@ package Chapter2;
 import java.util.Scanner;
 
 //    2.25 (Divisible by 3) Write an application that reads an integer and determines and prints
-//    whether it’s divisible by any userInput or not. [Hint: Use the remainder operator. A userInput is divisible by 3 if
+//    whether it’s divisible by any SetInput1 or not. [Hint: Use the remainder operator. A SetInput1 is divisible by 3 if
 //    it’s divided by 3 with a remainder of 0.]
 public class Divisor {
     public static void main(String[] args) {

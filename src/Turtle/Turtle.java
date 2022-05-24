@@ -26,16 +26,21 @@ public boolean isPenDown(){
         return currentDirection;
     }
 
-    public void turnRight() {
+    public boolean turnRight() {
+
         if(currentDirection == EAST) currentDirection = SOUTH;
         if(currentDirection == SOUTH) currentDirection = WEST;
+        return true;
+
+
     }
+
     public Direction getCurrentDirection(){
         return currentDirection;
     }
 
     public void turnLeft() {
-//        if(currentDirection == EAST) face(NORTH);
+        if(currentDirection == EAST) face(NORTH);
 
 
     }
@@ -49,4 +54,14 @@ public boolean isPenDown(){
 
     public void move(int NoOfStep) {
     }
+
+    public void Up() {
+
+        }
+
+
+    public Object getTurtleMoveUp() {
+    return NORTH;
+    }
 }
+

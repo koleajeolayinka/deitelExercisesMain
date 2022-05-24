@@ -24,7 +24,8 @@ public class TestTurtle {
     @Test
     public void TestTurtleCanMove(){
         Turtle turtle = new Turtle();
-
+       boolean pen = turtle.turnRight();
+        assertEquals(true, turtle.turnRight());
 
     }
 
@@ -61,8 +62,10 @@ public class TestTurtle {
     turtle.move(5);
     assertEquals(new Position(0,2), turtle.getCurrentPosition());
 }
-@Test public void turtleCanTurnLeftAndRight(){
+@Test public void turtleCanMoveUP(){
         Turtle turtle = new Turtle();
+        turtle.Up();
+        assertEquals(NORTH, turtle.getCurrentDirection());
 
 }
 

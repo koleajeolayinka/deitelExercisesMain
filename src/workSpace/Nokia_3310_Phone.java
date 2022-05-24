@@ -1,7 +1,7 @@
 //import java.util.Scanner;
 //public class Nokia_3310_Phone {
 //        private static final PhoneBook phoneBook = new PhoneBook();
-//        private static final MenuOption[] userInput = MenuOption.values();
+//        private static final MenuOption[] SetInput1 = MenuOption.values();
 //        private static final Scanner input = new Scanner(System.in);
 //
 //        public static void displayMainMenu() {
@@ -23,10 +23,10 @@
 //                    -> Press 0 to SWITCH OFF
 //                """;
 //            System.out.print(message);
-//            MenuOption userInput = getRequest();
+//            MenuOption SetInput1 = getRequest();
 //
-//            while (userInput != MenuOption.TURN_OFF){
-//                switch (userInput){
+//            while (SetInput1 != MenuOption.TURN_OFF){
+//                switch (SetInput1){
 //                    case PHONE_BOOK:{
 //                        Object PhoneBook;
 //                        PhoneBook.displayPhoneBookMenu();
@@ -131,9 +131,9 @@
 //                    }
 //                }
 //                System.out.println(message);
-//                userInput = getRequest();
+//                SetInput1 = getRequest();
 //            }
-//            if (userInput == MenuOption.TURN_OFF){
+//            if (SetInput1 == MenuOption.TURN_OFF){
 //                System.exit(0);
 //            }
 //        }
@@ -147,7 +147,7 @@
 //                }while (request < 0 || request > 13);
 //                if (request == 0){
 //                    System.out.println("Switching off...");
-//                    return userInput[13];
+//                    return SetInput1[13];
 //                }
 //            }
 //            catch (NoSuchElementException noSuchElementException){
@@ -158,7 +158,7 @@
 //                System.out.println("No Input entered, Terminating...");
 //                System.exit(-1);
 //            }
-//            return userInput[request - 1];
+//            return SetInput1[request - 1];
 //        }
 //    }
 //

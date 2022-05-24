@@ -8,7 +8,7 @@ public class AscendingOrderArray {
 
         //User inputs the array size
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter userInput of elements you want in the array: ");
+        System.out.print("Enter SetInput1 of elements you want in the array: ");
         count = scan.nextInt();
 
         int num[] = new int[count];

@@ -5,7 +5,7 @@ import java.util.Scanner;
 //4.18 (Credit Limit Calculator) Develop a Java application that determines whether any of
 //        several department-store customers has exceeded the credit limit on a charge account. For each cus-
 //        tomer, the following facts are available:
-//        a) account userInput
+//        a) account SetInput1
 //        b) balance at the beginning of the month
 //        c) total of all items charged by the customer this month
 //        d) total of all credits applied to the customer’s account this month

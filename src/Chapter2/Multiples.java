@@ -3,7 +3,7 @@ package Chapter2;
 import java.util.Scanner;
 
 //2.26 (Multiples) Write an application that reads two integers, determines whether the first
-//        userInput tripled is a multiple of the second userInput doubled, and prints the result. [Hint: Use the
+//        SetInput1 tripled is a multiple of the second SetInput1 doubled, and prints the result. [Hint: Use the
 //        remainder operator.]
 public class Multiples {
     public static void main(String[] args) {

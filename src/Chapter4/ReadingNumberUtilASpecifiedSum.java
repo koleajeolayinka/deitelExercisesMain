@@ -2,7 +2,7 @@ package Chapter4;
 
 import java.util.Scanner;
 
-//4.34 (Reading numbers until a specified sum) Write an application that asks for a userInput from
+//4.34 (Reading numbers until a specified sum) Write an application that asks for a SetInput1 from
 //        the user and then keeps reading integer values from the user until the sum of those integers equals
 //        or becomes greater than the value that was input in the beginning.
 public class ReadingNumberUtilASpecifiedSum {

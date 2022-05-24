@@ -8,7 +8,7 @@ public class multiplicationTable2 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("WELCOME TO AUTOMATIC SUM OF NUMBER DIGIT YOU ENTER");
-        System.out.println(" enter 4 userInput");
+        System.out.println(" enter 4 SetInput1");
         int sumNumber4 = scanner.nextInt();
 
         int totalNumber = sumNumber4 / 1000;
@@ -16,21 +16,21 @@ public class multiplicationTable2 {
         System.out.println(sumNumber4);
 
         System.out.println("WELCOME TO AUTOMATIC SUM OF NUMBER DIGIT YOU ENTER");
-        System.out.println(" enter 3 userInput");
+        System.out.println(" enter 3 SetInput1");
         int sumNumber3 = scanner.nextInt();
         int nu0 = sumNumber3 / 100;
         sumNumber3 = nu0 * 4;
         System.out.println(sumNumber3);
 
         System.out.println("WELCOME TO AUTOMATIC SUM OF NUMBER DIGIT YOU ENTER");
-        System.out.println(" enter 2 userInput");
+        System.out.println(" enter 2 SetInput1");
         int sumNumber2 = scanner.nextInt();
            int  nu2 = sumNumber2 / 10;
             sumNumber2 = nu2 * 2;
             System.out.println(sumNumber2);
 
         System.out.println("WELCOME TO AUTOMATIC SUM OF NUMBER DIGIT YOU ENTER");
-        System.out.println(" enter 1 userInput");
+        System.out.println(" enter 1 SetInput1");
         int sumNumber = scanner.nextInt();
             int nu1 = sumNumber;
             sumNumber = nu1;

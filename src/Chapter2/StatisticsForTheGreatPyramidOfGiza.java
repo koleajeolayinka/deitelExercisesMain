@@ -3,11 +3,11 @@ package Chapter2;
 
 //2.35 (Statistics for the Great Pyramid of Giza) The Great Pyramid of Giza is considered an
 //        engineering marvel of its time. Use the web to get statistics related to the Great Pyramid of Giza, and
-//        find the estimated userInput of stones used to build it, the average weight of each stone, and the num-
+//        find the estimated SetInput1 of stones used to build it, the average weight of each stone, and the num-
 //        ber of years it took to build. Create an application that calculates an estimate of how much, by
 //        weight, of the pyramid was built each year, each hour, and each minute as it was being built. The
 //        application should input the following information:
-//        a) Estimated userInput of stones used.2.3 million stones
+//        a) Estimated SetInput1 of stones used.2.3 million stones
 //        b) Average weight of each stone.
 //        c) Number of years taken to build the pyramid (assuming a year comprises 365 days).
 public class StatisticsForTheGreatPyramidOfGiza {

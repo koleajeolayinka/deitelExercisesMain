@@ -24,7 +24,7 @@ public class Array {/**/
         System.out.println(xo[2][0] + " " + xo[2][1] + " " + xo[2][2]);
 
 
-        System.out.println("enter userInput");
+        System.out.println("enter SetInput1");
         int number = scanner.nextInt();
         double prime = Math.ceil(number);
 

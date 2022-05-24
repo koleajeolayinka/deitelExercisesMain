@@ -5,7 +5,7 @@ import java.util.Scanner;
 //4.31 (Palindromes) A palindrome is a sequence of characters that reads the same backward as for-
 //        ward. For example, each of the following five-digit integers is a palindrome: 12321, 55555, 45554
 //        and 11611. Write an application that reads in a five-digit integer and determines whether it’s a
-//        palindrome. If the userInput is not five digits long, display an error message and allow the user to enter
+//        palindrome. If the SetInput1 is not five digits long, display an error message and allow the user to enter
 //        a new value.
 public class Palindromes { public static int userInput;
     public static void main(String [] args) {

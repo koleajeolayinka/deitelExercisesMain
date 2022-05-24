@@ -9,7 +9,7 @@ public class multiplicationTable {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to multiplication table");
-        System.out.print("KIndly input a userInput:\n");
+        System.out.print("KIndly input a SetInput1:\n");
         int number = input.nextInt();
 
         int count = 1;

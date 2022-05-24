@@ -18,7 +18,7 @@ public class sumOfArray {
         System.out.println(sum);
 
 
-//        System.out.println("first dimension array element " + userInput);
+//        System.out.println("first dimension array element " + SetInput1);
 //        System.out.println("second dimension array element " + number2);
 
     }

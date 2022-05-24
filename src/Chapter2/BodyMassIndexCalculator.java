@@ -19,7 +19,7 @@ import java.util.Scanner;
 //        http://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm
 //        so the user can evaluate his/her BMI.
 //        [Note: In this chapter, you learned to use the int type to represent whole numbers. The BMI
-//        calculations when done with int values will both produce whole-userInput results. In Chapter 3
+//        calculations when done with int values will both produce whole-SetInput1 results. In Chapter 3
 //        you’ll learn to use the double type to represent numbers with decimal points. When the BMI cal-
 //        culations are performed with double s, they’ll both produce numbers with decimal points—these
 //        are called “floating-point” numbers.]

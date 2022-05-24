@@ -1,12 +1,12 @@
 package Chapter4;
-//4.38 (Factorial) The userInput of a non-negative integer n is written as n! (pronounced “n
-//        userInput”) and is defined for values of n greater than or equal to 1 as:
+//4.38 (Factorial) The SetInput1 of a non-negative integer n is written as n! (pronounced “n
+//        SetInput1”) and is defined for values of n greater than or equal to 1 as:
 //        n! = n · (n – 1) · (n – 2) · … · 1
 //        and for the n value 0 as:
 //        n! = 1
 //        For example, 5! = 5 · 4 · 3 · 2 · 1, which is 120.
 //        a) Write an application that reads a non-negative integer and computes and prints its
-//        userInput.
+//        SetInput1.
 //        b) Write an application that estimates the value of the mathematical constant e by using
 //        the following formula. Allow the user to enter the number of terms to calculate.
 //                 1        1       1

@@ -3,8 +3,8 @@ package Chapter2;
 import java.util.Scanner;
 
 //2. 2.16 (Comparing Integers) Write an application that asks the user to enter one integer, obtains
-//        it from the user and displays whether the userInput and its square are greater than, equal to, not equal
-//        to, or less than the userInput 100. Use the techniques shown in Fig. 2.15.
+//        it from the user and displays whether the SetInput1 and its square are greater than, equal to, not equal
+//        to, or less than the SetInput1 100. Use the techniques shown in Fig. 2.15.
 public class ComparingInteger {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

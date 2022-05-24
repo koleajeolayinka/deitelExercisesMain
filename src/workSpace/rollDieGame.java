@@ -15,7 +15,7 @@ public class rollDieGame {
 
 // tally counts for 60,000,000 rolls of a die
             for (int roll = 1; roll <= 6; roll++) {
-                int face = 1 + randomNumbers.nextInt(); // userInput from 1 to 6
+                int face = 1 + randomNumbers.nextInt(); // SetInput1 from 1 to 6
 // use face value 1-6 to determine which counter to increment
                 switch (face) {
                     case 1:

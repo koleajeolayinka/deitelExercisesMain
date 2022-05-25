@@ -22,7 +22,6 @@ public class SevenSegment {
 
 
             }
-            System.out.println();
 
         }
 
@@ -38,7 +37,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[2][3]) Display[2][3] = "#";
 
             }
-            System.out.println();
 
         }
 
@@ -53,7 +51,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[4][3]) Display[4][3] = "#";
 
             }
-            System.out.println();
 
         }
         return Display;
@@ -68,7 +65,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[4][3]) Display[4][3] = "#";
 
             }
-            System.out.println();
 
         }
         return Display;
@@ -82,7 +78,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[4][0]) Display[4][0] = "#";
 
             }
-            System.out.println();
 
         }
 
@@ -97,7 +92,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[2][0]) Display[2][0] = "#";
 
             }
-            System.out.println();
 
         }
         return Display;
@@ -111,7 +105,6 @@ public class SevenSegment {
                 if(Display[i][j] == Display[2][3]) Display[2][3] = "#";
 
             }
-            System.out.println();
         }
 
         return Display;

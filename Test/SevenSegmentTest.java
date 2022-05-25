@@ -90,6 +90,6 @@ public class SevenSegmentTest {
 @Test
     public void Test_Seven_Segment_Can_Turn_On(){
         SevenSegment display = new SevenSegment();
-//        assertEquals();
+
 }
     }

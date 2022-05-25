@@ -1,6 +1,8 @@
 public class ArrayListSet {
  Object[] FirstSet = {null,null,null,null,null};
-Object[] SecondSet = {null,null,null,null,null};
+ Object[] SecondSet = {null,null,null,null,null};
+ Object[] set = {null,null,null};
+ public int SetDifferent;
     public int FirstSet0;
     public int FirstSet1;
     public int FirstSet2;
@@ -12,6 +14,12 @@ Object[] SecondSet = {null,null,null,null,null};
     public int SecondSet2;
     public int SecondSet3;
     public int SecondSet4;
+
+    public int Diff0;
+    public int Diff1;
+    public int Diff2;
+    public int Diff3;
+    public int Diff4;
 
     public void SetFirstSet(int FirstSet0, int FirstSet1, int FirstSet2, int FirstSet3, int FirstSet4) {
         this.FirstSet0 = FirstSet0;
@@ -57,5 +65,25 @@ Object[] SecondSet = {null,null,null,null,null};
     }
 
 
+    public void SetDifferent(int Diff0, int Diff1, int Diff2) {
+        this.Diff0 = Diff0;
+        this.Diff1 = Diff1;
+        this.Diff2 = Diff2;
 
+
+    }
+
+    public Object[] getDifferent() {
+        for (int i = 0; i < set.length ; i++) {
+            if (set[i] == set[0]) set[0] = Diff0;
+            if (set[i] == set[1]) set[1] = Diff1;
+            if (set[i] == set[2]) set[2] = Diff2;
+
+        }
+        return set;
+    }
+
+    public void SetDifferentAddition() {
+
+    }
 }

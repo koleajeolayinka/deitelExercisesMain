@@ -89,9 +89,21 @@ public class ArrayList {
         ArrayListSet arraySet = new ArrayListSet();
         arraySet.SetFirstSet(2, 4, 3, 2, 5);
         arraySet.SetSecondSet(2, 2, 1, 5, 5);
+        arraySet.SetDifferent(1, 4, 3);
+        assertArrayEquals(new Object[]{1, 4, 3}, arraySet.getDifferent());
+    }
+    @Test
+    public void Add_The_Set_Different(){
+        ArrayListSet arraySet = new ArrayListSet();
+        arraySet.SetFirstSet(2, 4, 3, 2, 5);
+        arraySet.SetSecondSet(2, 2, 1, 5, 5);
+        arraySet.SetDifferent(1, 4, 3);
+        arraySet.SetDifferentAddition();
+        assertArrayEquals(new Object[]{1, 4, 3}, arraySet.getDifferent());
 
 
     }
+
 
 
 }

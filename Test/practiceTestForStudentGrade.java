@@ -1,4 +1,4 @@
-//import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 //import tddClass.StudentResultScore;
 //
 //import static org.testng.AssertJUnit.assertEquals;

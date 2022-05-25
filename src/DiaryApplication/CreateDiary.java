@@ -1,6 +1,6 @@
 package DiaryApplication;
 
-public class CreateDairy {
+public class CreateDiary {
     private String UserName;
     private String Password;
 
@@ -18,5 +18,6 @@ public class CreateDairy {
 
     public String getUserName() {
         return UserName;
+
     }
 }

@@ -33,5 +33,6 @@ public class DiaryEntity {
     }
 
     public void setDeletedFirstDiary() {
+
     }
 }

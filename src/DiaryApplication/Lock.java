@@ -8,6 +8,7 @@ public class Lock {
     }
 
 
+
     public String getLockPassword() {
         return LockPassword;
     }

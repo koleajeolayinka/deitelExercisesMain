@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class DiaryAssignmentTest {
+
+
     @Test
     public void TestAccountCanLogIn() {
         DiaryAccount logIn = new DiaryAccount("tobi", "1122");
@@ -16,7 +18,7 @@ public class DiaryAssignmentTest {
     }
     @Test
     public void TestAccountCanBeSet(){
-        CreateDairy account = new CreateDairy();
+        CreateDiary account = new CreateDiary();
         account.setUserName("tob");
         account.setPassword("1234");
         assertEquals("tob", account.getUserName());

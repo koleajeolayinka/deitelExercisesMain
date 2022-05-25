@@ -4,6 +4,7 @@ public class DiaryTime {
     public void setCurrentTime() {
     }
 
+
     public String getCurrentTime() {
         long totalMilliseconds = System.currentTimeMillis();
 

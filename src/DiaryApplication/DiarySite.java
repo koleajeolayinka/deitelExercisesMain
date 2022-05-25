@@ -2,7 +2,6 @@ package DiaryApplication;
 
 import Chapter3.StoreData;
 
-import java.io.BufferedReader;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -13,7 +12,7 @@ public class DiarySite {
     public static Lock lock = new Lock();
     public static NotePad notePad = new NotePad();
     public static DiaryTime time = new DiaryTime();
-    public static CreateDairy account = new CreateDairy();
+    public static CreateDiary account = new CreateDiary();
     public static DiaryDate date = new DiaryDate(5072010, 6012022, 2022020);
     public static StoreData store = new StoreData();
     public static Scanner scanner = new Scanner(System.in);
@@ -22,6 +21,7 @@ public class DiarySite {
     public static void main(String[] args) {
         RunSite();
     }
+
 
     private static void RunSite() {
         System.out.println("""

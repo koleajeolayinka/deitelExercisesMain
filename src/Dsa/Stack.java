@@ -3,7 +3,7 @@ package Dsa;
 public class Stack {
 
     private int numberOfElements;
-    private int[] elements = new int[5];
+    private final int[] elements = new int[5];
 
 
     public boolean isEmpty() {

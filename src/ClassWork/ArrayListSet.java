@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class ArrayListSet {
  Object[] FirstSet = {null,null,null,null,null};
  Object[] SecondSet = {null,null,null,null,null};
@@ -83,7 +85,13 @@ public class ArrayListSet {
         return set;
     }
 
-    public void SetDifferentAddition() {
+    public void SetDifferentAddition(int SetAddition) {
+        this.SetDifferent = SetAddition;
 
+
+    }
+
+    public Object getDifferentAddition() {
+        return Diff0 + Diff1 + Diff2;
     }
 }

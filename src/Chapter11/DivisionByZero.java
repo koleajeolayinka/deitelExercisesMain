@@ -14,7 +14,7 @@ public class DivisionByZero {
             display(approximateQuotient + "");
         }
         catch (ArithmeticException px){
-            display("You can not put zero;");
+//            display("You can not put zero;");
 
         }
     }

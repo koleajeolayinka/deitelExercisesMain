@@ -1,12 +1,14 @@
-import List.ArrayL;
-import List.ArrayListItem;
+import ClassWork.ArrayL;
+import ClassWork.ArrayListItem;
+import ClassWork.ArrayListSet;
+import ClassWork.MyStack;
 import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.*;
 import static org.testng.internal.junit.ArrayAsserts.assertArrayEquals;
 
 
-public class ArrayList {
+public class DataStructureTest {
     public static int[][] listOfArray = {{20, 30, 50},
             {20}};
 
@@ -36,7 +38,7 @@ public class ArrayList {
     public void Test_Object_Can_Be_Put_In() {
         ArrayL arrayList = new ArrayL();
         assertArrayEquals(new Object[][]{{"q", "q", "q", "q"},
-                {" ", " ", " ", " "}}, arrayList.CreateObject());
+                                {" ", " ", " ", " "}}, arrayList.CreateObject());
 
     }
 
@@ -98,12 +100,31 @@ public class ArrayList {
         arraySet.SetFirstSet(2, 4, 3, 2, 5);
         arraySet.SetSecondSet(2, 2, 1, 5, 5);
         arraySet.SetDifferent(1, 4, 3);
-        arraySet.SetDifferentAddition();
+        arraySet.SetDifferentAddition(8);
         assertArrayEquals(new Object[]{1, 4, 3}, arraySet.getDifferent());
+        assertEquals(8, arraySet.getDifferentAddition());
 
+
+
+    }
+    @Test
+    public void Test_If_Stack_Can_Be_Created(){
+        MyStack stack = new MyStack();
+        assertNotNull(stack);
+
+    }
+    @Test
+    public void Test_If_Stack_Can_Pop(){
+        MyStack stack = new MyStack();
+//        stack.Pop();
 
     }
 
 
 
 }
+
+
+
+
+

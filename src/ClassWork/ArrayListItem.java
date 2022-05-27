@@ -1,4 +1,4 @@
-package List;
+package ClassWork;
 
 import java.util.Objects;
 
@@ -74,7 +74,7 @@ public class ArrayListItem {
                     if (Objects.equals(array[i][j], array[0][0])) array[0][0] = FoodItem0;
                     if (Objects.equals(array[i][j], array[0][1])) array[0][1] = FoodItem1;
                     if (Objects.equals(array[i][j], array[0][2])) array[0][2] = FoodItem2;
-                    if (Objects.equals(array[i][j], array[0][3])) array[0][3] = null;
+                    if (Objects.equals(array[i][j], array[0][3])) array[0][3] = array[0][3];
 
                 }
 

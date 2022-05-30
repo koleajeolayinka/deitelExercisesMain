@@ -77,11 +77,14 @@ public class ArrayListSet {
 
     public Object[] getDifferent() {
         for (int i = 0; i < set.length ; i++) {
-            if (set[i] == set[0]) set[0] = Diff0;
-            if (set[i] == set[1]) set[1] = Diff1;
-            if (set[i] == set[2]) set[2] = Diff2;
 
-        }
+
+                if (set[i] == set[0]) set[0] = Diff0;
+                if (set[i] == set[1]) set[1] = Diff1;
+                if (set[i] == set[2]) set[2] = Diff2;
+
+            }
+
         return set;
     }
 

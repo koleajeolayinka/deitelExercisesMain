@@ -97,7 +97,7 @@ public class DataStructureTest {
     @Test
     public void Add_The_Set_Different(){
         ArrayListSet arraySet = new ArrayListSet();
-        arraySet.SetFirstSet(2, 4, 3, 2, 5);
+        arraySet.SetFirstSet(9, 4, 3, 2, 5);
         arraySet.SetSecondSet(2, 2, 1, 5, 5);
         arraySet.SetDifferent(1, 4, 3);
         arraySet.SetDifferentAddition(8);
@@ -113,6 +113,7 @@ public class DataStructureTest {
         assertNotNull(stack);
 
     }
+
     @Test
     public void Test_If_Stack_Can_Pop(){
         MyStack stack = new MyStack();

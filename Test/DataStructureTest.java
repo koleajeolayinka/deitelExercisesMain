@@ -1,7 +1,5 @@
-import ClassWork.ArrayL;
-import ClassWork.ArrayListItem;
-import ClassWork.ArrayListSet;
-import ClassWork.MyStack;
+import ClassWork.*;
+import org.junit.jupiter.api.BeforeEach;
 import org.testng.annotations.Test;
 
 import static org.testng.AssertJUnit.*;
@@ -9,6 +7,9 @@ import static org.testng.internal.junit.ArrayAsserts.assertArrayEquals;
 
 
 public class DataStructureTest {
+
+
+
     public static int[][] listOfArray = {{20, 30, 50},
             {20}};
 
@@ -115,11 +116,36 @@ public class DataStructureTest {
     }
 
     @Test
-    public void Test_If_Stack_Can_Pop(){
+    public void Check_If_Element_Is_Empty_Test(){
         MyStack stack = new MyStack();
-//        stack.Pop();
+        assertTrue(stack.ElementEmpty());
 
     }
+    @Test
+    public void Test_If_Element_Is_Not_Element(){
+        MyStack stack = new MyStack();
+        stack.Push(2);
+        assertFalse(stack.ElementEmpty());
+    }
+    @Test
+    public void Test_If_Element_Can_Push_And_Push(){
+        MyStack stack = new MyStack();
+        stack.Push(3);
+        int element = stack.pop();
+        assertEquals(3, element);
+
+    }
+    @Test
+    public void Test_Hash_Map_Can_Be_Created(){
+        MyHashMap hashmap = new MyHashMap();
+        assertNotNull(hashmap);
+    }
+    @Test
+    public void Test_Hash_Map_Exist(){
+        MyHashMap hashMap = new MyHashMap();
+
+    }
+
 
 
 

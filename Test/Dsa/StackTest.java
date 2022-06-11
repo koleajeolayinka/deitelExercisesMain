@@ -27,7 +27,7 @@ public class StackTest {
 
     @Test
     public void pushOneElement_StackIsNotEmpty() {
-        stack.push(13);
+        stack.push(1);
         assertFalse(stack.isEmpty());
 
     }

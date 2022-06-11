@@ -1,5 +1,6 @@
 package ChapterEight;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 class TicTacToe {
@@ -9,6 +10,7 @@ class TicTacToe {
     public static void main(String[] args) {
 
         //EXTENSION: Create a variable to represent the size of our tic-tac-toe board
+
         int n = 3;
 
         //Create a nxn array that represents our tic-tac-toe board
@@ -113,7 +115,7 @@ class TicTacToe {
 
     }
 
-    //Make a function to draw the tic tac toe board
+    //Make a function to draw the tic-tac-toe board
     public static void drawBoard(char[][] board) {
         System.out.println("Board:");
         for(int i = 0; i < board.length; i++) {
@@ -130,6 +132,7 @@ class TicTacToe {
     public static char playerHasWon(char[][] board) {
 
         //EXTENSION: Check each row
+        Arrays.stream(board).forEach(System.out::println);
         for(int i = 0; i < board.length; i++) {
 
             //EXTENSION: The boolean inARow is true if a player has won by putting n of their chars in row i and false otherwise

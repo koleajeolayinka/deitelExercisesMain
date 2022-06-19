@@ -10,6 +10,7 @@ import java.util.Scanner;
 //        produce floating-point results. Use class Scanner and sentinel-controlled iteration to obtain the data
 //        from the user.
 public class GasMileage {
+
     public static Scanner scanner = new Scanner(System.in);
     public static int totalGallons = 0;
     public static int totalMiles = 0;

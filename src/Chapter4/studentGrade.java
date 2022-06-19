@@ -21,6 +21,7 @@ public class studentGrade {
         System.out.println("ENTER " + student3 + " SCORE");
         int grade3 = grade.nextInt();
 
+
         System.out.println("ENTER STUDENT4 NAME ");
         String student4 = grade.next();
         System.out.println("ENTER " + student4 + " SCORE");

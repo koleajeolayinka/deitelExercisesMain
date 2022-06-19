@@ -15,6 +15,7 @@ public class TabularOutput {
         for (int i = 1; i <= table; i++) {
             System.out.printf("%n%d%7d%7d%8d", i, i*i, i*i*i, i*i*i*i);
 
+
         }
 
     }

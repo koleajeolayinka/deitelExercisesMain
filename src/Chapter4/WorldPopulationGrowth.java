@@ -21,6 +21,7 @@ public class WorldPopulationGrowth {
     public static int year;
     public static String population;
     public static double growth;
+
     public static void main(String[] args) {
         System.out.println("WELCOME TO THE WORLD POPULATION GROWTH APPLICATION");
         System.out.println("PLEASE KINDLY ENTER YOUR CURRENT YEAR");

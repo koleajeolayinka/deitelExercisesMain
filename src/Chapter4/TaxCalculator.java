@@ -17,6 +17,7 @@ public class TaxCalculator {
         System.out.println("ENTER FIRST CITIZEN EARNING AMOUNT");
         int secondCitizen = scanner.nextInt();
 
+
         System.out.println("ENTER FIRST CITIZEN EARNING AMOUNT");
         int thirdCitizen = scanner.nextInt();
 

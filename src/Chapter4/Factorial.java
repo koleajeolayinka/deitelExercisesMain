@@ -25,6 +25,7 @@ public class Factorial {
     public static Scanner scanner = new Scanner(System.in);
     public static int userInput;
 
+
     public static void main(String[] args) {
         System.out.println("WELCOME TO FACTORIAL APPLICATION");
         runFactorial();

@@ -23,6 +23,7 @@ public class SalesCommissionCalculator {
         runSalesCommissionCalculator();
     }
 
+
     private static void runSalesCommissionCalculator() {
         System.out.println("ENTER NUMBER ITEM SOLD ");
         itemNumber = scanner.nextInt();

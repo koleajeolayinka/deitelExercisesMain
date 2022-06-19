@@ -10,6 +10,7 @@ import java.util.Scanner;
 //        arguments causes the program to output a single newline character. [Hint: Iteration statements are
 //        required.]
 public class CheckerboardPatternOfAsterisks {
+
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String [] args){
         System.out.println("WELCOME TO CHECKER BOARD OF ASTERISKS");

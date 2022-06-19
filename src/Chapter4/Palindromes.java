@@ -12,6 +12,7 @@ public class Palindromes { public static int userInput;
         System.out.println("WELCOME TO PALINDROMES CHECKER ");
         runApp();
     }
+
     public static void runApp(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("ENTER YOUR INTEGER BELOW TO CHECK IF IT IS PALINDROMES");

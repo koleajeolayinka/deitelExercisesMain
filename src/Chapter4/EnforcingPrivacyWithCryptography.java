@@ -18,6 +18,7 @@ import java.util.Scanner;
 //        also want to investigate the RSA scheme, which is widely used in industrial-strength applications.]
 public class EnforcingPrivacyWithCryptography {
     public static Scanner scanner = new Scanner(System.in);
+
     public static int userInput;
     public static int firstDigit;
     public static int secondDigit;

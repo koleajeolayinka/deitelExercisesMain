@@ -11,6 +11,7 @@ import java.util.Scanner;
 //        has a positional value of 1, the next digit to the left a positional value of 2, then 4, then 8, and so
 //        on. The decimal equivalent of binary 1101 is 1 * 1 + 0 * 2 + 1 * 4 + 1 * 8, or 1 + 0 + 4 + 8 or, 13.]
 public class PrintingTheDecimalEquivalentOfABinaryNumber {
+
     public static int digit;
     public static int firstDigit;
     public static int secondDigit;

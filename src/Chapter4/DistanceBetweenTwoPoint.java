@@ -12,7 +12,6 @@ public class DistanceBetweenTwoPoint {
         System.out.println("WELCOME TO DISTANCE BETWEEN TWO POINT CHECKER");
         runDistanceBetweenTwoPoint();
     }
-
     private static void runDistanceBetweenTwoPoint() {
         System.out.println("ENTER POINT X DIGIT");
         pointX = scanner.nextInt();

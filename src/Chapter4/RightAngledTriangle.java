@@ -12,7 +12,6 @@ public class RightAngledTriangle {
         System.out.println("WELCOME TO RIGHT ANGLED TRIANGLE APPLICATION\n\tWHERE YOU CAN DISPLAY THE TRIANGLE LENGTH BETWEEN 1 - 10");
        runAngledTriangle();
     }
-
     private static void runAngledTriangle() {
         System.out.println("KINDLY ENTER THE TRIANGLE LENGTH YOU WANT TO DISPLAY ");
         length = scanner.nextInt();

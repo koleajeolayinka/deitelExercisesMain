@@ -15,6 +15,7 @@ public class studentScoreThinkPad {
 
         int[][] array = new int[SUBJECT][stuNum];
 
+
         System.out.println();
         for (int j = 1; j <= stuNum; j++)
             for (int k = 1; k <= SUBJECT; k++) {

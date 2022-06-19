@@ -14,7 +14,6 @@ public class ReadingNumberUtilASpecifiedSum {
         System.out.println("WELCOME TO READING NUMBER UTIL A SPECIFIED SUM ");
         runReadingNumber();
     }
-
     private static void runReadingNumber() {
         System.out.println("ENTER A SPECIFIED VALUE YOU WANT TO LOOP THROUGH ");
         userInput = scanner.nextInt();

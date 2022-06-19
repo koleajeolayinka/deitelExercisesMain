@@ -10,6 +10,7 @@ public class MultipleCationTable {
             }
             System.out.println();
         }
+
 //        while (2 <=10){
 //            System.out.printf(" %d x %d = %d ",1,2, 2 * 1);
 //            break;

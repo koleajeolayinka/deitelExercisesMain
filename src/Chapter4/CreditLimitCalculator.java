@@ -15,6 +15,7 @@ import java.util.Scanner;
 //        customer’s credit limit. For those customers whose credit limit is exceeded, the program should dis-
 //        play the message "Credit limit exceeded" .
 public class CreditLimitCalculator {
+
     public static Scanner scanner = new Scanner(System.in);
     public static CreditAccount account = new CreditAccount();
     public static int Balance;

@@ -1,6 +1,7 @@
 package Chapter3;
 
 public class StoreData {
+
     public static String FirstName;
     public static String SecondName;
     private String Gender;

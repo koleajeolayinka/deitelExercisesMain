@@ -14,6 +14,7 @@ public class petrolPurchaseTest {
         petrolPurchase petrolPurchase = new petrolPurchase("Epe", "Oando", 10, 160.5, 0.5);
         assertEquals("Epe", petrolPurchase.getLocation());
 
+
     }
 
     @Test

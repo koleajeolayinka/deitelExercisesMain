@@ -12,7 +12,6 @@ public class ClockApp {
         assertEquals(23, clock.getHour());
         assertEquals(59, Clock.getMinute());
         assertEquals(59, Clock.getSecond());
-
     }
 
     @Test

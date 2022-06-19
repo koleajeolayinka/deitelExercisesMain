@@ -4,7 +4,6 @@ public class Clock {
     static int Second;
     int Hour;
     static int Minute;
-
     public Clock(int hour, int minute, int second) {
     this.Hour = hour;
     this.Minute = minute;

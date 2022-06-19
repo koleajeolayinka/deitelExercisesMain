@@ -26,6 +26,7 @@ public class HealthProfileClass {
         runApp();
     }
 
+
     private static void runApp() {
         System.out.println("WELCOME TO HEALTH RECORD ");
         System.out.println("""

@@ -24,6 +24,7 @@ import static org.testng.AssertJUnit.assertEquals;
 //        person’s age in years, BMI, maximum heart rate and target-heart-rate range. It should also display
 //        the BMI values chart from Exercise 2.33.
 public class HealthRecords {
+
     @Test
     public void NameData() {
         HealthProfile data = new HealthProfile("tobi", "kole", "male", 662022, 6.2, 200);

@@ -17,6 +17,7 @@ public class WithdrawalAccountTest {
         WithdrawalAccount account = new WithdrawalAccount();
         account.setAccountBalance(1000);
         assertEquals(1000, account.getAccountBalance());
+
     }
 
     @Test

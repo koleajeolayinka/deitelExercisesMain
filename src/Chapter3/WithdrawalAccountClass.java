@@ -3,6 +3,7 @@ package Chapter3;
 import java.util.Scanner;
 
 public class WithdrawalAccountClass {
+
     public static Scanner scanner = new Scanner(System.in);
     public static WithdrawalAccount account = new WithdrawalAccount();
     public static void main(String [] args){

@@ -6,8 +6,6 @@ public class petrolPurchase {
     public double PerLiter;
     public double PercentageDiscount;
     private double PurchaseAmount;
-
-
     public petrolPurchase(String Location, String TypeOfPetrol, int quantity, double perLiter, double percentageDiscount) {
        /*public void setAccout(String Location){*/
 

@@ -5,7 +5,6 @@ public class Car {
     String CarYear;
     double CarPrice;
 
-
     public Car(String model, String year, double price) {
      this.CarModel = model;
      this.CarYear = year;

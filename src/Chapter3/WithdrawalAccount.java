@@ -6,7 +6,6 @@ public class WithdrawalAccount {
     public static int AccountBalance;
     public static int TotalBalance = AccountBalance - AmountWithdraw;
 
-
     public static int WithdrawalAccount() {
         return AccountBalance;
     }

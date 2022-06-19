@@ -9,8 +9,6 @@ public class HealthProfile {
     private final int WeightInPound;
 
 
-
-
     public HealthProfile(String firstName, String secondName, String gender, int dateOfBirth, double HeightInInches, int WeightInPound) {
         this.FirstName = firstName;
         this.SecondName = secondName;

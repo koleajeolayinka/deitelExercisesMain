@@ -12,7 +12,6 @@ public class myCarTest {
         assertEquals("toyota corolla ", account.getCarModel());
         assertEquals("2020 ", account.getCarYear());
         assertEquals(3_000_000.5, account.getCarPrice());
-
     }
     @Test
     public void SecondCar(){

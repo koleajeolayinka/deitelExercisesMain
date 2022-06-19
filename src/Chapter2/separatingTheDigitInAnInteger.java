@@ -15,5 +15,6 @@ public class separatingTheDigitInAnInteger {
         System.out.printf("the SetInput1 are %d %d %d %d %d%n", firstDigit,secondDigit,thirdDigit,forthDigit,fifthDigit);
 
 
+
     }
 }

@@ -16,6 +16,7 @@ package Chapter2;
 //        10       100      1000
 import java.util.Scanner;
 
+
 public class TableOfSquaresAndCubes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

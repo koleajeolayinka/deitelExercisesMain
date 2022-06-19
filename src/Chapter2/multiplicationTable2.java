@@ -6,6 +6,7 @@ public class multiplicationTable2 {
     public static void main(String[] args) {
 
 
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("WELCOME TO AUTOMATIC SUM OF NUMBER DIGIT YOU ENTER");
         System.out.println(" enter 4 SetInput1");

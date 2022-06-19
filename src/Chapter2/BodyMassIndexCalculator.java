@@ -39,4 +39,5 @@ public class BodyMassIndexCalculator {
         System.out.println("YOUR BODY MASS INDEX IS " + BMI);
     }
 
+
 }

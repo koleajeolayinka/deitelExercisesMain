@@ -38,6 +38,7 @@ public class ComparingInteger {
         if (squareOfUserInput < compareInteger) {
             System.out.println(squareOfUserInput + " IS LESS THAN " + compareInteger );
 
+
         }
 
     }

@@ -18,4 +18,5 @@ public class CheckerBoardPatternOfAsterisks {
             System.out.println();
         }
     }
+
 }

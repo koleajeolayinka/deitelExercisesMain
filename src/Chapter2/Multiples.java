@@ -6,6 +6,7 @@ import java.util.Scanner;
 //        SetInput1 tripled is a multiple of the second SetInput1 doubled, and prints the result. [Hint: Use the
 //        remainder operator.]
 public class Multiples {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstNumber;

@@ -36,7 +36,6 @@ public class DisplayShapesWithAsterisks {
                                 System.out.println();
                                 for (int e = 1; e <= 1; e++) {
                                     System.out.print("*********\t   ***\t\t\t*\t\t  *");
-
                                 }
                             }
 

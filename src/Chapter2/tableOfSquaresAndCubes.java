@@ -68,6 +68,7 @@ public class tableOfSquaresAndCubes {
         System.out.println("input your square and cube SetInput1");
         int nn = table.nextInt();
 
+
         int n = 0;
         System.out.printf("%s%8s%8s%n", "NUMBERS", "SQUARE", "CUBE");
         while (nn >= n) {

@@ -14,6 +14,7 @@ public class Arithmetic {
         int SquareOfSecondInteger;
         int SumOfTheirSquares;
         int DifferenceOfTheirSquares;
+        System.out.println(Math.ceil(9.2));
         System.out.println("WELCOME TO ARITHMETIC APPLICATION ");
         System.out.println("KINDLY ENTER YOUR FIRST INTEGER ");
         firstInteger = scanner.nextInt();

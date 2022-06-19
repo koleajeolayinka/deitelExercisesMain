@@ -15,6 +15,7 @@ public class WorldPopulationGrowthCalculation {
         for (int i = 0; i < 19; i++) {
             System.out.print("==");
         }
+
         BigInteger calPo = CurrentPopulation.add(increasePerYear);
         BigInteger population1 = calPo.add(BigInteger.valueOf(202413));
         BigInteger population2 = population1.add(BigInteger.valueOf(202413));

@@ -12,6 +12,7 @@ import java.util.Scanner;
 //        digits? [Hint: It’s possible to do this exercise with the techniques you learned in this chapter. You’ll
 //        need to use both division and remainder operations to “pick off ” each digit.]
 public class SeparatingDigitInAnInteger {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int Digit;

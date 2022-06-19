@@ -29,4 +29,5 @@ public class DiameterCircumferenceAndAreaOfACircle {
         System.out.printf("YOUR CIRCLE DIAMETER IS %d%nCIRCUMFERENCE IS %.02f%nYOUR AREA OF A CIRCLE IS %.02f ", 2 * radius, 2 * pi * radius,(pi * radius) * (pi * radius));
 
     }
+
 }

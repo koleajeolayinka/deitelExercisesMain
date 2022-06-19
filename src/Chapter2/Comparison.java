@@ -36,6 +36,7 @@ public class Comparison {
         //Math.PI STATIC VARIABLE
         if(number1 >= number2) {
             System.out.printf("%d >= %d%n", number1, number2);
+
         }
     }
 }

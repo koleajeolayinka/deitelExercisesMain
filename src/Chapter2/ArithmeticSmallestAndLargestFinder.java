@@ -56,6 +56,7 @@ public class ArithmeticSmallestAndLargestFinder {
         if (thirdInteger < secondInteger && thirdInteger < firstInteger) {
             System.out.println("THE LARGEST INTEGER IS " + thirdInteger);
 
+
         }
 
     }

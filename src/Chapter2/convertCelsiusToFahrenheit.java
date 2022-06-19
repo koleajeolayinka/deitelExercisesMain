@@ -12,7 +12,6 @@ public class convertCelsiusToFahrenheit {
 
         double fahrenheit = (9.0 / 5) * celsiusDegree + 32;
 
-
         System.out.printf(" %d Celsius is %.4f Fahrenheit", celsiusDegree, fahrenheit);
     }
 }

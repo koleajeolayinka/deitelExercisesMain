@@ -11,6 +11,7 @@ package Chapter2;
 //        b) Average weight of each stone.
 //        c) Number of years taken to build the pyramid (assuming a year comprises 365 days).
 public class StatisticsForTheGreatPyramidOfGiza {
+
     public static void main(String[] args) {
         System.out.println("\tWELCOME TO STATISTICS FOR THE GREAT PYRAMID OF GIZA");
 int numberOfStone = 2300000;

@@ -6,6 +6,7 @@ import java.util.Scanner;
 //        and prints the largest and smallest integers in the group. Use only the programming techniques you
 //        learned in this chapter.
 public class LargestAndSmallestNumber {
+
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         int firstInteger;

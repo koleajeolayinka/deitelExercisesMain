@@ -23,5 +23,6 @@ public class Divisor {
         else
             System.out.println("NOT DIVISIBLE");
 
+
     }
 }

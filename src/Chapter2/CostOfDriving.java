@@ -23,8 +23,6 @@ public class CostOfDriving {
         distance = scanner.nextDouble();
         runMiles();
 
-
-
     }
 
     private static void runMiles() {

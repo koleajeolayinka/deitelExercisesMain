@@ -61,7 +61,6 @@ public class TrianglePrintingProgram {
         for (int i = 0; i < 9; i++) {
             System.out.print(" ");
             System.out.print(' ');
-
         }
         for (int i = 0; i < 9; i++) {
             System.out.print("*");

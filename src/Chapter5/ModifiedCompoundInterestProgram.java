@@ -6,9 +6,7 @@ public class ModifiedCompoundInterestProgram {
     public static void main(String[] args) {
         runModifiedCompoundInterestProgram();
 
-
     }
-
     private static void runModifiedCompoundInterestProgram() {
         for (int i = 0; i < 6; i++) {
 

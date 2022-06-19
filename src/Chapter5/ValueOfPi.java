@@ -19,9 +19,10 @@ public class ValueOfPi {
         for (int i = 0; i < 200_000; i++) {
             try {
                 System.out.println(4 - 4 / 3 + 4 / +i);
-            }catch (ArithmeticException e){
+            }catch (ArithmeticException ignored){
 
             }
+
 
         }
 

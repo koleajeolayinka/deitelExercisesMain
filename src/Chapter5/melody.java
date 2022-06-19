@@ -7,6 +7,7 @@ public class melody {
         for (int day = 1; day <= 12; day++) {
             Object cout;
             switch (day) {
+
                 case 1:
                     System.out.println( "On the first day of Christmas\nmy true love sent to me:\n");
                     break;

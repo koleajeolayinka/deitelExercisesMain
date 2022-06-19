@@ -21,5 +21,7 @@ public class TaxPlanAlternative {
     private static void runTaxPlan() {
         System.out.println("WELCOME TO TAX PLAN ALTERNATIVES; THE \"FAIR TAX\"");
         System.out.println("");
+
+
     }
 }

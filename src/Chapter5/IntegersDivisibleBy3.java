@@ -8,6 +8,7 @@ public class IntegersDivisibleBy3 {
             System.out.println(i);
 total+= i;
         }
+
         System.out.println("Total Integer Divisible By 3 is " + total);
 
     }

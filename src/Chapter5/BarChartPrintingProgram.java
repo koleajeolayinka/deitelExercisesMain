@@ -9,6 +9,7 @@ import java.util.Scanner;
 //        ple, if your program reads the number 7, it should display ******* . Display the bars of asterisks after
 //        you read all five numbers.
 public class BarChartPrintingProgram {
+
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("WELCOME TO BAR CHART");

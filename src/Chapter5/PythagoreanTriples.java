@@ -14,6 +14,7 @@ public class PythagoreanTriples {
     public static Scanner scanner = new Scanner(System.in);
     public static int a;
     public static int b;
+
     public static int cal0;
     public static int cal1;
     public static int cal3;

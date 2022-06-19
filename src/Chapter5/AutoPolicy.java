@@ -8,6 +8,7 @@ package Chapter5;
 //        should display an error message. In later chapters, you’ll learn how to use exception handling to -
 //        indicate that a method received an invalid argument.
 public class AutoPolicy {
+
     public static void main(String[] args) {
 
     }

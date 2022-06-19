@@ -12,7 +12,6 @@ public class TheSumOfASeries {
             System.out.printf("%d%8d", i, sum);
             System.out.println();
 
-
         }
     }
 }

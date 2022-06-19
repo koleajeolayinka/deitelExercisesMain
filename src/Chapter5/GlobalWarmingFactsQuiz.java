@@ -17,6 +17,7 @@ import java.util.Scanner;
 //        good”; if three or fewer, print “Time to brush up on your knowledge of global warming,” and -
 //        include a list of some websites where you found your facts.
 public class GlobalWarmingFactsQuiz {
+
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

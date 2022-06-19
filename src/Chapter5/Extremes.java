@@ -12,7 +12,7 @@ public class Extremes {
         while (scanner.hasNext()) {
             if (scanner.hasNextInt()) {
                 int num = scanner.nextInt();
-                if (num <= 0) {
+                if (num == 0) {
                     scanner.close();
                     break;
                 }

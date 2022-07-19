@@ -9,7 +9,7 @@ public class Set {
     public static int[][] array = new int[SetInput1][size1];
 
     public static void main(String[] args) {
-        System.out.println("WELCOME TO SET APPLICATION");
+
         runSet();
     }
 

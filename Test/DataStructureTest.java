@@ -6,7 +6,9 @@ import static org.testng.AssertJUnit.*;
 import static org.testng.internal.junit.ArrayAsserts.assertArrayEquals;
 
 
-public class DataStructureTest {
+public class
+
+DataStructureTest {
 
 
 

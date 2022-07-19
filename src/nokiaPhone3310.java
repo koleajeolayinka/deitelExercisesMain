@@ -23,7 +23,7 @@ public class nokiaPhone3310 {
         int nokiaInput = scanner.nextInt();
 // PHONE BOOK FUCTION LISTED BELOW
         switch (nokiaInput) {
-            case 1:
+            case 1 -> {
                 System.out.println("""
                         1. Search
                         2. ServiceNos.
@@ -45,11 +45,11 @@ public class nokiaPhone3310 {
                                 """);
                         break;
                 }
-                break;
+            }
 
             // MESSAGE FUNCTION
 
-            case 2:
+            case 2 -> {
                 System.out.println("""
                         1. Write messages
                         2. inbox
@@ -64,13 +64,11 @@ public class nokiaPhone3310 {
                         """);
                 int messageSettings = scanner.nextInt();
                 switch (messageSettings) {
-
-                    case 7:
+                    case 7 -> {
                         System.out.println("""
                                 1 -> Set 1^2
                                 2 -> Common ^3
                                 """);
-
                         int set1function = scanner.nextInt();
                         switch (set1function) {
 
@@ -93,70 +91,59 @@ public class nokiaPhone3310 {
 
 
                         }
-                        break;
-
-                    case 3:
-                        System.out.println("""
-                                Chat 
-                                """);
+                    }
+                    case 3 -> System.out.println("""
+                            Chat 
+                            """);
                 }
-                        break;
-
-
-
-                    case 4:
+            }
+            case 4 -> {
+                System.out.println("""
+                        1 -> Missed calls
+                        2 -> Received calls
+                        3 -> Dialled numbers
+                        4 -> Erase recent call list
+                        5 -> Show call duration
+                        6 -> Show call cose
+                        7 -> Call cost settings
+                        8 -> Prepaid credit
+                        """);
+                int ShowCallDuration = scanner.nextInt();
+                switch (ShowCallDuration) {
+                    case 5:
                         System.out.println("""
-                                1 -> Missed calls
-                                2 -> Received calls
-                                3 -> Dialled numbers
-                                4 -> Erase recent call list
-                                5 -> Show call duration
-                                6 -> Show call cose
-                                7 -> Call cost settings
-                                8 -> Prepaid credit
+                                1. Last call duration
+                                2. All calls' duration
+                                3. Clear counters
                                 """);
-                        int ShowCallDuration = scanner.nextInt();
+                        int ShowCallCost = scanner.nextInt();
+                    case 6:
+                        System.out.println("""
+                                1. Last call cost
+                                2. All calls' cost
+                                3. Clear counters
+                                """);
+                        int callCostSettings = scanner.nextInt();
+                    case 7:
+                        System.out.println("""
+                                1. Call cost limit
+                                2. Show cost in
+                                """);
 
-                        switch (ShowCallDuration) {
-                            case 5:
-                                System.out.println("""
-                                        1. Last call duration
-                                        2. All calls' duration
-                                        3. Clear counters
-                                        """);
-                                int ShowCallCost = scanner.nextInt();
-                            case 6:
-                                System.out.println("""
-                                        1. Last call cost
-                                        2. All calls' cost
-                                        3. Clear counters
-                                        """);
-                                int callCostSettings = scanner.nextInt();
-                            case 7:
-                                System.out.println("""
-                                        1. Call cost limit
-                                        2. Show cost in
-                                        """);
-
-                        }
-                        break;
-
-
-
-                            case 5:
-                                System.out.println("""
-                                        1 -> Ringing tone
-                                        2 -> Ringing volume
-                                        3 -> Incoming call alert
-                                        4 -> Composer
-                                        5 -> Message alert tone
-                                        6 -> keypad tones
-                                        7 -> Warning and game tones
-                                        8 -> vibrating alert
-                                        9 -> Screen saver
-                                        """);
-                                break;
-                        }
+                }
+            }
+            case 5 -> System.out.println("""
+                    1 -> Ringing tone
+                    2 -> Ringing volume
+                    3 -> Incoming call alert
+                    4 -> Composer
+                    5 -> Message alert tone
+                    6 -> keypad tones
+                    7 -> Warning and game tones
+                    8 -> vibrating alert
+                    9 -> Screen saver
+                    """);
+        }
                         switch (nokiaInput) {
                             case 6:
                                 System.out.println("""

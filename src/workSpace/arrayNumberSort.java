@@ -33,7 +33,7 @@ public class arrayNumberSort {
 
         for (int i : randomNumbers)
             sum += i;
-        System.out.println("The sum is " + sum);
+        System.out.println("The correct is " + sum);
 
     }
 }

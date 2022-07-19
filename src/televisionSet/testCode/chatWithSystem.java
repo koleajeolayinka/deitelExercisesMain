@@ -48,7 +48,7 @@ public class chatWithSystem {
       System.out.println("        *      ");
       System.out.println("        *      ");
       System.out.println("              ");
-      System.out.println("shutDown");
+      System.out.println(function);
 
       String shutdown = input.next();
 

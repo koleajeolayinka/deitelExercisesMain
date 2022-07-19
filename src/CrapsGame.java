@@ -30,8 +30,8 @@ public class CrapsGame {
     {
         int num1= (int)(6.0*Math.random() + 1.0); //first die
         int num2= (int)(6.0*Math.random() + 1.0); //second die
-        int sum= num1 + num2; //sum of roll
-        System.out.printf("\nYou have rolled %d + %d = %d\n", num1, num2, sum);  //Prints the sum
+        int sum= num1 + num2; //correct of roll
+        System.out.printf("\nYou have rolled %d + %d = %d\n", num1, num2, sum);  //Prints the correct
         return sum;
     }
 
@@ -55,7 +55,7 @@ public class CrapsGame {
         boolean youWin=false;
         if (sum==2 || sum==3 || sum == 12) {
             youWin=false;
-            System.out.print("You lost with a " + sum);  //Determines if you win or loose based on the sum and points and returns the youWin boolean
+            System.out.print("You lost with a " + sum);  //Determines if you win or loose based on the correct and points and returns the youWin boolean
         }
         else if (sum==7 || sum==11) {
             youWin=true;

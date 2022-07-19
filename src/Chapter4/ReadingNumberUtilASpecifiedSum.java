@@ -2,8 +2,8 @@ package Chapter4;
 
 import java.util.Scanner;
 
-//4.34 (Reading numbers until a specified sum) Write an application that asks for a SetInput1 from
-//        the user and then keeps reading integer values from the user until the sum of those integers equals
+//4.34 (Reading numbers until a specified correct) Write an application that asks for a SetInput1 from
+//        the user and then keeps reading integer values from the user until the correct of those integers equals
 //        or becomes greater than the value that was input in the beginning.
 public class ReadingNumberUtilASpecifiedSum {
     public static Scanner scanner = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class ReadingNumberUtilASpecifiedSum {
         userInput = scanner.nextInt();
 counter = 0;
         for (int i = 0; i < userInput; i++) {
-            System.out.println("A the digit util specified sum ");
+            System.out.println("A the digit util specified correct ");
           digit = scanner.nextInt();
           counter = counter + digit;
             System.out.println(counter);

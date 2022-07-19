@@ -16,6 +16,7 @@ public class EnumDemo {
 // Declare a variable of type Day.
 // Declare a variable of type Month.
         tgif = Day.FRIDAY;
+        System.out.println(tgif);
         Aries = Month.APRIL;
 // Assign a value of type Day to tgif.
 // Assign a value of type Month to libra.
@@ -39,8 +40,8 @@ public class EnumDemo {
         if( x != y) {
             System.out.print(x);
 
-
         }
+
 
     }
 }

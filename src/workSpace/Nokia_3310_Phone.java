@@ -1,3 +1,6 @@
+//package workSpace;
+//
+//import java.util.NoSuchElementException;
 //import java.util.Scanner;
 //public class Nokia_3310_Phone {
 //        private static final PhoneBook phoneBook = new PhoneBook();
@@ -29,7 +32,7 @@
 //                switch (SetInput1){
 //                    case PHONE_BOOK:{
 //                        Object PhoneBook;
-//                        PhoneBook.displayPhoneBookMenu();
+//                        phoneBook.displayPhoneBookMenu();
 //                        break;
 //                    }
 //
@@ -117,12 +120,12 @@
 //                    }
 //
 //                    case PROFILES:{
-//                        System.out.println("Display Profiles");
+//                        System.out.println("display Profiles");
 //                        break;
 //                    }
 //
 //                    case SIM_SERVICES:{
-//                        System.out.println("Display sim services");
+//                        System.out.println("display sim services");
 //                        break;
 //                    }
 //
@@ -160,7 +163,12 @@
 //            }
 //            return SetInput1[request - 1];
 //        }
+//
+//    public static class PhoneBook {
+//        public void displayPhoneBookMenu() {
+//        }
 //    }
+//}
 //
 //    enum MenuOption{
 //        PHONE_BOOK(1),

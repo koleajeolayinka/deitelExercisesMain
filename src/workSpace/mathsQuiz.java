@@ -34,12 +34,11 @@ public class mathsQuiz {
      * them with random numbers.
      */
     private static void createQuiz() {
-        int firstNumbers;
 
-       int secondNumbers;
         for ( int i = 0; i < 10; i++ ) {
             firstNumbers = (int)(Math.random() * 50 + 1);  // in the range 1 to 50
             secondNumbers = (int)(Math.random() * 50); // in the range 0 to 49
+
         }
     }
 
@@ -49,7 +48,6 @@ public class mathsQuiz {
      * The answers are stored in an array, which is created in this subroutine.
      */
     private static void administerQuiz() {
-       int userAnswers;
         for (int i = 0; i < 10; i++) {
             int questionNum = i + 1;
             System.out.printf("Question %2d:  What is %2d + %2d  ? ",

@@ -24,7 +24,7 @@ public class ReducingStudentFatigueQuiz {
     static int incorrectResponse() {
         int incorrectResponsesNumber = secureRandom.nextInt(1, 4);
         switch (incorrectResponsesNumber) {
-            case 1 -> System.out.println("No. Please try again.");
+            case 1 -> System.out.println("No. Please kindly do better.");
             case 2 -> System.out.println("Wrong. Try once more.");
             case 3 -> System.out.println("Don't give up!");
             case 4 -> System.out.println("No. Keep trying.");

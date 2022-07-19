@@ -46,6 +46,11 @@ public class BeautifyingStrings {
 
 
     }
+    public static void MatchingString(){
+//        String s = "k";
+//        String [] chars = s.split(^) //TODO USE A REGEX TO SPLIT UPPER CASE AND LOWER CASE LETTER AT THE BEGINNING OF A WORD
+    }
+
 
 
 }

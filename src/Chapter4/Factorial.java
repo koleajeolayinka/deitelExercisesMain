@@ -19,6 +19,7 @@ package Chapter4;
 //        e = 1 + ----- + ----- + ----- + …
 //                  1!      2!      3!
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Factorial {
@@ -33,9 +34,12 @@ public class Factorial {
 
     private static void runFactorial() {
         System.out.println("ENTER NUMBER");
-        int number = scanner.nextInt();
+        String number = scanner.next();
+        BigInteger bigInteger = new BigInteger(number);
+        BigInteger big = new BigInteger(number);
+
         int factorial = 1;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= bigInteger.intValue(); i++) {
             factorial = factorial * i;
         }
         System.out.println(factorial);
